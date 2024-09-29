@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+
+.container {
+  width: 100vw;
+  height: 100%;
+}
+
+.nav-bar {
+  text-align: right;
+  width: 100%;
+
+}
+
+.nav-bar ul {
+  list-style-type: none;
+background-color: #ffffff;
+padding: 25px;
+padding-left: 30px;
+
+}
+
+.nav-bar li {
+  display: inline-block;
+  margin-left: 20px;
+
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}
+.nav-bar a:hover{
+    color: #007bff; 
+}
+#sir{
+    color: red;
+}
+        /* 2nd */
+        .three {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .featured-works {
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .featured-works h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .work-item , .work-item1 , .work-item2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 60px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .work-item img , .work-item1 img , .work-item2 img{
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 2px solid black;
+  }
+  
+  .work-info {
+    flex: 1;
+  }
+  
+  .work-info h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .work-meta {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .work-meta .year {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .work-meta .category {
+    color: #888;
+  }
+  
+  .work-info p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design for screens below 480px */
+  @media (max-width: 480px) {
+    .work-item {
+      flex-direction: column;
+      text-align: center;
+    }
+    .work-item1 , .work-item2{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-bar ul{
+      padding-right: 50px;
+    }
+  }
+   /* footer */
+   .four {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+
+
+  }
+  
+  .footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 20px;
+    background-color: white;
+    height: 20%;
+  }
+  
+  .social-icons {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    font-size: 24px;
+    color: #555;
+  }
+  .social-icons a:hover {
+    color: #007bff; 
+  }
+  
+  footer p {
+    font-size: 14px;
+    color: #555;
+  }
+  @media (max-width: 480px) {
+    .social-icons a {
+      font-size: 20px;
+    }
+  }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav-bar">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="indexwork.html" id="sir">Works</a></li>
+              <li><a href="indexblog.html" >Blog</a></li>
+              <li><a href="l.html">About</a></li>
+            </ul>
+          </nav>
+   </div>
+
+    <!-- seco -->
+    <div class="three">
+        <div class="featured-works">
+           <h2>Featured works</h2>
+           <div class="work-item">
+             <img src="images/Rectangle 30.png" alt="Designing Dashboards">
+             <div class="work-info">
+               <h3>Designing Dashboards</h3>
+               <div class="work-meta">
+                 <span class="year">2020</span>
+                 <span class="category">Dashboard</span>
+               </div>
+               <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+             </div>
+           </div>
+         
+           <div class="work-item1">
+             <img src="images/Rectangle 32.png" alt="Vibrant Portraits of 2020">
+             <div class="work-info">
+               <h3>Vibrant Portraits of 2020</h3>
+               <div class="work-meta">
+                 <span class="year">2018</span>
+                 <span class="category">Illustration</span>
+               </div>
+               <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+             </div>
+           </div>
+         
+           <div class="work-item">
+            <img src="images/Rectangle 34.png" alt="Designing Dashboards">
+            <div class="work-info">
+              <h3>Dashboards</h3>
+              <div class="work-meta">
+                <span class="year">2020</span>
+                <span class="category">Dashboard</span>
+              </div>
+              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+          </div>
+
+           <div class="work-item2">
+             <img src="images/Rectangle 40.png" alt="36 Days of Malayalam Type">
+             <div class="work-info">
+               <h3>36 Days of Malayalam Type</h3>
+               <div class="work-meta">
+                 <span class="year">2018</span>
+                 <span class="category">Typography</span>
+               </div>
+               <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+             </div>
+           </div>
+        </div>
+       </div> 
+       <!-- footer -->
+       <div class="four">
+        <footer class="footer">
+          <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <p>Copyright ©2020 All rights reserved</p>
+        </footer>
+      </div>
+</body>
+</html>
